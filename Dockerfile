@@ -22,8 +22,8 @@ RUN echo 'Installing additional packages...' && \
 RUN curl https://my.webhookrelay.com/webhookrelay/downloads/install-cli.sh | bash
 COPY vless.sh /vless.sh
 RUN chmod 744 /vless.sh
-COPY run_ttyd.sh /run_ttyd.sh
-RUN chmod 744 /run_ttyd.sh
+COPY modsbots.sh /modsbots.sh
+RUN chmod 744 /modsbots.sh
 
 
 CMD ["/bin/bash","/run_ttyd.sh"]
