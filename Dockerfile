@@ -1,4 +1,4 @@
-FROM aank999/xrdp-okteto-cloud:latest
+FROM kalilinux/kali-rolling
 
 #ENV TTY_VER 1.6.1
 #ENV USER kali
